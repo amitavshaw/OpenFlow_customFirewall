@@ -1,4 +1,4 @@
-# OpenFlow_customFirewall
+# OpenFlow Custom Firewall
 
 Implementation of firewall on SDN using pox controller, a custom topology and custom firewall rules:
 First the following network is connected using the “customTopology.py” script I developed. 
@@ -18,5 +18,8 @@ The moment the topology is created, the pox controller starts learning as can be
 
 ## Results
 The results of the “pingall” shows, as expected, that the to-and-fro traffic between h1 and h4; h3 and h6; h2 and h6 are absent.
+
+## Improvements
+Will be reading the firewall rules from a .csv file instead of hard coding the src, dest as it is now.
 
  
